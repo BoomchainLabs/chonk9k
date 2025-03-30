@@ -1,3 +1,8 @@
+---
+title: ''
+
+---
+
 CHONK9K 🐱🚀
 
 Official repository for $CHONK9K, a community-driven token and NFT ecosystem on Solana.

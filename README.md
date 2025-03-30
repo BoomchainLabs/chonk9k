@@ -3,6 +3,7 @@ title: ''
 
 ---
 
+[![hackmd-github-sync-badge](https://hackmd.io/C9cQdzJEQCej95jbzFJxFw/badge)](https://hackmd.io/C9cQdzJEQCej95jbzFJxFw)
 CHONK9K 🐱🚀
 
 Official repository for $CHONK9K, a community-driven token and NFT ecosystem on Solana.

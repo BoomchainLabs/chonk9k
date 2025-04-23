@@ -1,0 +1,17 @@
+name: Use Build Metadata
+
+on: push
+
+jobs:
+  build:
+    uses: Boomchainlab/.github/.github/workflows/set-build-metadata.yml@main
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Use Build Metadata
+        run: |
+          echo "Timestamp: ${{ needs.build.outputs.build_timestamp }}"
+          echo "Commit SHA: ${{ needs.build.outputs.short_sha }}"
+          echo "Branch: ${{ needs.build.outputs.branch_name }}"

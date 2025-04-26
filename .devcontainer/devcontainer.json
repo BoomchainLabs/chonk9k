@@ -1,4 +1,9 @@
 {
   "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {}
+  "features": {},
+  "tasks": {
+    "test": "cargo test",
+    "build": "npm install && cargo build",
+    "launch": "cd web && npm start"
+  }
 }
